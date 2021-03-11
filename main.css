@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+body{
+    font-family: "Noto Sans JP"; 
+    font-size: 62.5%;
+    background-color:rgb(226, 241, 238);
+}
+#st-wrapper{
+    max-width: 800px;
+    width:80%;
+    margin: 0 auto;
+    padding:30px 20px;
+    background-color: #fff;
+}
+@media (max-width: 834px) {
+    #st-wrapper{
+        width:100%;
+    }
+}
+
+header{
+    height:auto;
+    text-align: center;
+}
+header > h1{
+    margin-bottom:10px;
+    font-family: "M PLUS Rounded 1c";
+    font-size: 3rem;
+    font-weight:bold;
+    color: rgb(115, 218, 197);
+}
+@media (max-width: 834px) {
+    header > h1{
+        font-size: 1.7rem;
+    }
+}
+
+header > #sub_title{
+    font-size: 0.8rem;
+    color:rgb(99, 99, 99);
+    line-height: 1.7em;
+}
+@media (max-width: 834px) {
+    header > #sub_title{
+        font-size: 0.6rem;
+    }
+}
+
+#caution_container{
+    margin-top:50px;
+    padding:10px;
+    background-color: rgb(241, 162, 88);
+    color:#fff;
+}
+#caution_container>#caution_text{
+    display: inline;
+    font-size: 0.8rem;
+}
+#form_container{
+    margin-top:50px;
+    padding:25px 15px;
+    border: solid 4px rgb(115, 218, 197);
+    border-radius: 15px;
+    font-size:1rem;
+    background-color: rgba(115, 218, 197, 0.1);
+}
+#form_container ul li{
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 3px;
+    color:rgb(190, 15, 15);
+    font-size:0.8rem;
+    font-weight: bold;
+    list-style: none;
+}
+#form_container p.success_message{
+    margin-bottom: 15px;
+    padding: 3px;
+    color:rgb(15, 135, 190);
+    font-size:0.8rem;
+    font-weight: bold;
+}
+form div{
+    margin-bottom: 15px;
+}
+form label{
+    display: block;
+}
+form .form_parts{
+    padding:8px;
+    border:solid 1px rgb(216, 216, 216);
+    font-family: "Noto Sans JP";
+}
+@media (max-width: 834px) {
+    form #name{
+        width:80%;
+        font-size: 1rem;
+    }
+}
+form textarea{
+    width:100%;
+    line-height: 1.8em;
+}
+@media (max-width: 834px) {
+    form textarea{
+        font-size: 1rem;
+    }
+}
+form #form_button{
+    display:block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding:10px 25px;
+    border:none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color:rgb(115, 218, 197);
+    color:#fff;
+    cursor: pointer;
+    outline:none;
+}
+@media (max-width: 834px) {
+    form #form_button{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 834px) {
+    form #form_button{
+        -webkit-appearance: none;
+    }
+}
+
+form #form_button:hover{
+    background-color:rgb(82, 155, 140);
+}
+#log_wrapper{
+    margin-top: 50px;
+    font-size:1rem;
+}
+#log_wrapper .log_container{
+    margin-bottom:20px;
+    padding:25px 15px;
+    border: solid 2px rgb(218, 218, 218);
+}
+#log_wrapper .log_name{
+    display: inline;
+    font-size:0.9rem;
+    font-weight: bold;
+}
+#log_wrapper .log_time{
+    display: inline;
+    font-size: 0.8rem;
+}
+#log_wrapper .log_message{
+    margin-top: 10px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    margin-bottom:0;
+    padding-top:20px;
+    background-color: rgb(151, 173, 169);
+    color: #fff;
+    text-align: center;
+}
+/*
+max-width
+width
+heidth
+display
+margin
+padding
+border
+font
+backgrouund
+color
+text-aign
+line-height
+
+*/
+
