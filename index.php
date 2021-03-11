@@ -1,9 +1,9 @@
 <?php
 // データベースの接続情報
-define( 'DB_HOST', 'mysql144.phy.lolipop.lan');
-define( 'DB_USER', 'LAA1175305');
-define( 'DB_PASS', 'TFRc7L6V');
-define( 'DB_NAME', 'LAA1175305-00lqjv');
+define( 'DB_HOST', ホスト名);
+define( 'DB_USER', ユーザ名);
+define( 'DB_PASS', パス);
+define( 'DB_NAME', DB名);
 
 // タイムゾーン設定
 date_default_timezone_set('Asia/Tokyo');
